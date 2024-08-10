@@ -1,0 +1,56 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    background-color: khaki;
+}
+
+.start{
+    min-height: 40px;
+}
+.erase{
+    min-height: 40px;
+}
+.eraser{
+    min-height: 40px;
+}
+.container{
+    
+    display:flex;
+    flex:1;
+    
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    flex:1;
+    gap:32px;
+    margin:32x;
+    padding:16px;
+    justify-content: center;
+    
+}
+.canvas{
+    min-width: 400px;
+    flex:1;
+    padding:32px;
+    display:flex;
+    flex-direction: column;
+}
+.orange{
+    
+    flex:1;
+    background-color: orange;
+}
+.blue{
+    background-color:blue;
+    flex:1;
+}
+.black{
+    flex:1;
+    background-color: black;
+}
+
+
